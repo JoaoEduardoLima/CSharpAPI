@@ -390,11 +390,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Api\\Model.Api.csproj",
+      "projectUniqueName": "C:\\Users\\joaoe\\ws-vscode\\ApiCSharp\\Model.Api\\Model.Api.csproj",
       "projectName": "Model.Api",
-      "projectPath": "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Api\\Model.Api.csproj",
+      "projectPath": "C:\\Users\\joaoe\\ws-vscode\\ApiCSharp\\Model.Api\\Model.Api.csproj",
       "packagesPath": "C:\\Users\\joaoe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Api\\obj\\",
+      "outputPath": "C:\\Users\\joaoe\\ws-vscode\\ApiCSharp\\Model.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joaoe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -412,8 +412,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Infrastructure.IoC\\Model.Infrastructure.IoC.csproj": {
-              "projectPath": "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Infrastructure.IoC\\Model.Infrastructure.IoC.csproj"
+            "C:\\Users\\joaoe\\ws-vscode\\ApiCSharp\\Model.Infrastructure.IoC\\Model.Infrastructure.IoC.csproj": {
+              "projectPath": "C:\\Users\\joaoe\\ws-vscode\\ApiCSharp\\Model.Infrastructure.IoC\\Model.Infrastructure.IoC.csproj"
             }
           }
         }
