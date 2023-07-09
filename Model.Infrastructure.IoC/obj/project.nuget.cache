@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fSTWF0eY3xY0K/6EPSnT99wrqyL3wtgjoboF2+tNiA2OR9zYF2WhDhPDAojX5sDqv2KHxW0vW6zsgIqs9XRfrg==",
+  "dgSpecHash": "QmgDvARKFlhQcCzREEa1fWmGxJVnjxo/XP98zngZnBXct0YmlWNrhhVSXyHCgRy41bzMNjWP/Crzh7GPhm48cw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Infrastructure.IoC\\Model.Infrastructure.IoC.csproj",
+  "projectFilePath": "C:\\Users\\joaoe\\ws-vscode\\ApiCSharp\\Model.Infrastructure.IoC\\Model.Infrastructure.IoC.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
