@@ -1,0 +1,135 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Model.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Model.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.Application.dll": {}
+        }
+      },
+      "Model.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Model.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.Domain.dll": {}
+        }
+      },
+      "Model.Infrastructure.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Model.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Model.Infrastructure.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.Infrastructure.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Model.Application/1.0.0": {
+      "type": "project",
+      "path": "../Model.Application/Model.Application.csproj",
+      "msbuildProject": "../Model.Application/Model.Application.csproj"
+    },
+    "Model.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Model.Domain/Model.Domain.csproj",
+      "msbuildProject": "../Model.Domain/Model.Domain.csproj"
+    },
+    "Model.Infrastructure.Data/1.0.0": {
+      "type": "project",
+      "path": "../Model.Infrastructure.Data/Model.Infrastructure.Data.csproj",
+      "msbuildProject": "../Model.Infrastructure.Data/Model.Infrastructure.Data.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Model.Application >= 1.0.0",
+      "Model.Domain >= 1.0.0",
+      "Model.Infrastructure.Data >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\joaoe\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Infrastructure.IoC\\Model.Infrastructure.IoC.csproj",
+      "projectName": "Model.Infrastructure.IoC",
+      "projectPath": "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Infrastructure.IoC\\Model.Infrastructure.IoC.csproj",
+      "packagesPath": "C:\\Users\\joaoe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Infrastructure.IoC\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\joaoe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Application\\Model.Application.csproj": {
+              "projectPath": "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Application\\Model.Application.csproj"
+            },
+            "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Domain\\Model.Domain.csproj": {
+              "projectPath": "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Domain\\Model.Domain.csproj"
+            },
+            "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Infrastructure.Data\\Model.Infrastructure.Data.csproj": {
+              "projectPath": "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Infrastructure.Data\\Model.Infrastructure.Data.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
