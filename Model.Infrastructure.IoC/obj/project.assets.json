@@ -70,11 +70,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joaoe\\ws-vscode\\ApiCSharp\\Model.Infrastructure.IoC\\Model.Infrastructure.IoC.csproj",
+      "projectUniqueName": "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Infrastructure.IoC\\Model.Infrastructure.IoC.csproj",
       "projectName": "Model.Infrastructure.IoC",
-      "projectPath": "C:\\Users\\joaoe\\ws-vscode\\ApiCSharp\\Model.Infrastructure.IoC\\Model.Infrastructure.IoC.csproj",
+      "projectPath": "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Infrastructure.IoC\\Model.Infrastructure.IoC.csproj",
       "packagesPath": "C:\\Users\\joaoe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joaoe\\ws-vscode\\ApiCSharp\\Model.Infrastructure.IoC\\obj\\",
+      "outputPath": "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Infrastructure.IoC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joaoe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -91,14 +91,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\joaoe\\ws-vscode\\ApiCSharp\\Model.Application\\Model.Application.csproj": {
-              "projectPath": "C:\\Users\\joaoe\\ws-vscode\\ApiCSharp\\Model.Application\\Model.Application.csproj"
+            "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Application\\Model.Application.csproj": {
+              "projectPath": "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Application\\Model.Application.csproj"
             },
-            "C:\\Users\\joaoe\\ws-vscode\\ApiCSharp\\Model.Domain\\Model.Domain.csproj": {
-              "projectPath": "C:\\Users\\joaoe\\ws-vscode\\ApiCSharp\\Model.Domain\\Model.Domain.csproj"
+            "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Domain\\Model.Domain.csproj": {
+              "projectPath": "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Domain\\Model.Domain.csproj"
             },
-            "C:\\Users\\joaoe\\ws-vscode\\ApiCSharp\\Model.Infrastructure.Data\\Model.Infrastructure.Data.csproj": {
-              "projectPath": "C:\\Users\\joaoe\\ws-vscode\\ApiCSharp\\Model.Infrastructure.Data\\Model.Infrastructure.Data.csproj"
+            "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Infrastructure.Data\\Model.Infrastructure.Data.csproj": {
+              "projectPath": "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Infrastructure.Data\\Model.Infrastructure.Data.csproj"
             }
           }
         }
