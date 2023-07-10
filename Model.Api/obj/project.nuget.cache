@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ijFLVSyildbHu9p/+ltEsCdgJMCgympXWmkpbcJbuQvW9KFnkGHar3+MhqvfqeQp0Lh4yStD2TC/Ziib3KRo4g==",
+  "dgSpecHash": "31T4curt1LUFWzpCcz1Po44pOQY+tFiEL4T4Xry5RxI9s9lzT3z511JTiJRWVUXLgqbU8Uy4Qgo+wKYLes6nBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joaoe\\ws-vscode\\ApiCSharp\\Model.Api\\Model.Api.csproj",
+  "projectFilePath": "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Api\\Model.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaoe\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\joaoe\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\joaoe\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.18.1\\microsoft.visualstudio.azure.containers.tools.targets.1.18.1.nupkg.sha512",
     "C:\\Users\\joaoe\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\joaoe\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\joaoe\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

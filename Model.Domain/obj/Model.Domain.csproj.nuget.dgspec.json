@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joaoe\\ws-vscode\\ApiCSharp\\Model.Domain\\Model.Domain.csproj": {}
+    "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Domain\\Model.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joaoe\\ws-vscode\\ApiCSharp\\Model.Domain\\Model.Domain.csproj": {
+    "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Domain\\Model.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joaoe\\ws-vscode\\ApiCSharp\\Model.Domain\\Model.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Domain\\Model.Domain.csproj",
         "projectName": "Model.Domain",
-        "projectPath": "C:\\Users\\joaoe\\ws-vscode\\ApiCSharp\\Model.Domain\\Model.Domain.csproj",
+        "projectPath": "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Domain\\Model.Domain.csproj",
         "packagesPath": "C:\\Users\\joaoe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joaoe\\ws-vscode\\ApiCSharp\\Model.Domain\\obj\\",
+        "outputPath": "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joaoe\\AppData\\Roaming\\NuGet\\NuGet.Config",
