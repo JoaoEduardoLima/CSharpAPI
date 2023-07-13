@@ -3,15 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model.Domain", "Model.Domain\Model.Domain.csproj", "{25029F3E-9028-4C6D-AF42-D2849CD7477C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model.Domain", "Model.Domain\Model.Domain.csproj", "{25029F3E-9028-4C6D-AF42-D2849CD7477C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model.Application", "Model.Application\Model.Application.csproj", "{80C5AB1C-CBAB-42CD-AF9A-F643570D95C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model.Application", "Model.Application\Model.Application.csproj", "{80C5AB1C-CBAB-42CD-AF9A-F643570D95C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model.Infrastructure.Data", "Model.Infrastructure.Data\Model.Infrastructure.Data.csproj", "{EA6E7336-DA85-4754-AFB5-D3840E704491}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model.Infrastructure.Data", "Model.Infrastructure.Data\Model.Infrastructure.Data.csproj", "{EA6E7336-DA85-4754-AFB5-D3840E704491}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model.Infrastructure.IoC", "Model.Infrastructure.IoC\Model.Infrastructure.IoC.csproj", "{CAB9629E-758E-4E14-8AE7-4DC367BB7F66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model.Infrastructure.IoC", "Model.Infrastructure.IoC\Model.Infrastructure.IoC.csproj", "{CAB9629E-758E-4E14-8AE7-4DC367BB7F66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model.Api", "Model.Api\Model.Api.csproj", "{D4416E0B-534A-4A34-B4DE-2F8D2112CFC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model.Api", "Model.Api\Model.Api.csproj", "{D4416E0B-534A-4A34-B4DE-2F8D2112CFC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4FA9E2A4-1FD3-4E05-8649-D01124513906}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
