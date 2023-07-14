@@ -43,6 +43,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.6.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -160,7 +166,6 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-<<<<<<< Updated upstream
               "version": "[7.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
@@ -172,13 +177,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.9, )"
-=======
-              "version": "[7.0.8, )"
-            },
-            "Microsoft.EntityFrameworkCore.Relational": {
-              "target": "Package",
-              "version": "[7.0.8, )"
->>>>>>> Stashed changes
             }
           },
           "imports": [

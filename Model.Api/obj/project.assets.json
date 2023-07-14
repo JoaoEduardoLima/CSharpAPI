@@ -2,7 +2,6 @@
   "version": 3,
   "targets": {
     "net6.0": {
-<<<<<<< Updated upstream
       "Azure.Core/1.24.0": {
         "type": "package",
         "dependencies": {
@@ -43,6 +42,19 @@
         },
         "runtime": {
           "lib/netstandard2.0/Azure.Identity.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FluentValidation/11.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
             "related": ".xml"
           }
         }
@@ -135,13 +147,6 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Abstractions": "7.0.9",
           "Microsoft.EntityFrameworkCore.Analyzers": "7.0.9",
-=======
-      "Microsoft.EntityFrameworkCore/7.0.8": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.8",
-          "Microsoft.EntityFrameworkCore.Analyzers": "7.0.8",
->>>>>>> Stashed changes
           "Microsoft.Extensions.Caching.Memory": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "Microsoft.Extensions.Logging": "7.0.0"
@@ -160,11 +165,7 @@
           "buildTransitive/net6.0/Microsoft.EntityFrameworkCore.props": {}
         }
       },
-<<<<<<< Updated upstream
       "Microsoft.EntityFrameworkCore.Abstractions/7.0.9": {
-=======
-      "Microsoft.EntityFrameworkCore.Abstractions/7.0.8": {
->>>>>>> Stashed changes
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
@@ -177,11 +178,7 @@
           }
         }
       },
-<<<<<<< Updated upstream
       "Microsoft.EntityFrameworkCore.Analyzers/7.0.9": {
-=======
-      "Microsoft.EntityFrameworkCore.Analyzers/7.0.8": {
->>>>>>> Stashed changes
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -190,17 +187,10 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-<<<<<<< Updated upstream
       "Microsoft.EntityFrameworkCore.Relational/7.0.9": {
         "type": "package",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.9",
-=======
-      "Microsoft.EntityFrameworkCore.Relational/7.0.8": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.8",
->>>>>>> Stashed changes
           "Microsoft.Extensions.Configuration.Abstractions": "7.0.0"
         },
         "compile": {
@@ -214,7 +204,6 @@
           }
         }
       },
-<<<<<<< Updated upstream
       "Microsoft.EntityFrameworkCore.SqlServer/7.0.9": {
         "type": "package",
         "dependencies": {
@@ -232,8 +221,6 @@
           }
         }
       },
-=======
->>>>>>> Stashed changes
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
         "type": "package",
         "build": {
@@ -418,7 +405,6 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-<<<<<<< Updated upstream
       "Microsoft.Identity.Client/4.45.0": {
         "type": "package",
         "dependencies": {
@@ -567,8 +553,6 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-=======
->>>>>>> Stashed changes
       "Microsoft.OpenApi/1.2.3": {
         "type": "package",
         "compile": {
@@ -703,7 +687,6 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-<<<<<<< Updated upstream
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -939,8 +922,6 @@
           }
         }
       },
-=======
->>>>>>> Stashed changes
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
@@ -957,7 +938,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-<<<<<<< Updated upstream
       "System.Security.AccessControl/5.0.0": {
         "type": "package",
         "dependencies": {
@@ -1167,12 +1147,11 @@
           }
         }
       },
-=======
->>>>>>> Stashed changes
       "Model.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "FluentValidation": "11.6.0",
           "Model.Domain": "1.0.0"
         },
         "compile": {
@@ -1196,13 +1175,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-<<<<<<< Updated upstream
           "Microsoft.EntityFrameworkCore": "7.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.9",
-=======
-          "Microsoft.EntityFrameworkCore": "7.0.8",
-          "Microsoft.EntityFrameworkCore.Relational": "7.0.8",
->>>>>>> Stashed changes
           "Model.Domain": "1.0.0"
         },
         "compile": {
@@ -1230,7 +1204,6 @@
     }
   },
   "libraries": {
-<<<<<<< Updated upstream
     "Azure.Core/1.24.0": {
       "sha512": "+/qI1j2oU1S4/nvxb2k/wDsol00iGf1AyJX5g3epV7eOpQEP/2xcgh/cxgKMeFgn3U2fmgSiBnQZdkV+l5y0Uw==",
       "type": "package",
@@ -1267,6 +1240,29 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "FluentValidation/11.6.0": {
+      "sha512": "DWKd0jHA33d7BXVWytSoN5Oafj9nYuiLUyyFoaUboOZZiaN5tlXdcJpkRbmrrWBUTWdSxjTwIoyUs38KSU/7OQ==",
+      "type": "package",
+      "path": "fluentvalidation/11.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.6.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -1443,12 +1439,6 @@
       "sha512": "9YuCdQWuRAmYYHqwW1h5ukKMC1fmNvcVHdp3gb8zdHxwSQz7hkGpYOBEjm6dRXRmGRkpUyHL8rwUz4kd53Ev0A==",
       "type": "package",
       "path": "microsoft.entityframeworkcore/7.0.9",
-=======
-    "Microsoft.EntityFrameworkCore/7.0.8": {
-      "sha512": "J4eNwnGsaEeudWGvgEO+n9u5XYfKb/QmMjLPH/T2xUBKzuZsJ7nyNoEtNDo3DhQqyDHPxf2fDSuUwSJQFEj6JQ==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore/7.0.8",
->>>>>>> Stashed changes
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1456,7 +1446,6 @@
         "buildTransitive/net6.0/Microsoft.EntityFrameworkCore.props",
         "lib/net6.0/Microsoft.EntityFrameworkCore.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.xml",
-<<<<<<< Updated upstream
         "microsoft.entityframeworkcore.7.0.9.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
@@ -1465,23 +1454,12 @@
       "sha512": "cfY6Fn7cnP/5pXndL8QYaey/B2nGn1fwze5aSaMJymmbqwqYzFiszHuWbsdVBCDYJc8ok7eB1m/nCc3/rltulQ==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.abstractions/7.0.9",
-=======
-        "microsoft.entityframeworkcore.7.0.8.nupkg.sha512",
-        "microsoft.entityframeworkcore.nuspec"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore.Abstractions/7.0.8": {
-      "sha512": "4+Kj43oGUHPneA/uZurt9Nj9NZt8PBV0vMI+iKOUhmHXQKCkRUzpJaRKIZ1QLy8LiEL5D3/AIRfclgokdJnINQ==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/7.0.8",
->>>>>>> Stashed changes
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
-<<<<<<< Updated upstream
         "microsoft.entityframeworkcore.abstractions.7.0.9.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
@@ -1490,23 +1468,12 @@
       "sha512": "VvqFD3DdML6LhPCAR/lG2xNX66juylC8v57yUAAYnUSdEUOMRi3lNoT4OrNdG0rere3UOQPhvVl5FH2QdyoF8Q==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.analyzers/7.0.9",
-=======
-        "microsoft.entityframeworkcore.abstractions.7.0.8.nupkg.sha512",
-        "microsoft.entityframeworkcore.abstractions.nuspec"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore.Analyzers/7.0.8": {
-      "sha512": "FSEFD1j4HerUaPyOZ0/NQjZZBkxqDSx2ZKEZXOz1aOQz7PY2f1D6ZuIBTLF8zAq11f058O2cl72GXVRMfwQ5iw==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/7.0.8",
->>>>>>> Stashed changes
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "lib/netstandard2.0/_._",
-<<<<<<< Updated upstream
         "microsoft.entityframeworkcore.analyzers.7.0.9.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
@@ -1515,23 +1482,12 @@
       "sha512": "u7iN6cNd6SJUlpdk24JVIbkji/UbkEEQ7pXncTyT4eXXj+Hz2y4NSZFOAywPGcioIgX1YzbKWDiJhk7hjSFxBQ==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.relational/7.0.9",
-=======
-        "microsoft.entityframeworkcore.analyzers.7.0.8.nupkg.sha512",
-        "microsoft.entityframeworkcore.analyzers.nuspec"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore.Relational/7.0.8": {
-      "sha512": "C9NYwZdtAd0Ov2jQz4vNplifA/zmvn7BN6k7HrxRdbK4pdg18mFDQAedkJX2hGngNEMwssapzlRhsUSV0Q34rA==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/7.0.8",
->>>>>>> Stashed changes
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.xml",
-<<<<<<< Updated upstream
         "microsoft.entityframeworkcore.relational.7.0.9.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
@@ -1550,12 +1506,6 @@
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
-=======
-        "microsoft.entityframeworkcore.relational.7.0.8.nupkg.sha512",
-        "microsoft.entityframeworkcore.relational.nuspec"
-      ]
-    },
->>>>>>> Stashed changes
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "sha512": "LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
       "type": "package",
@@ -1877,7 +1827,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-<<<<<<< Updated upstream
     "Microsoft.Identity.Client/4.45.0": {
       "sha512": "ircobISCLWbtE5eEoLKU+ldfZ8O41vg4lcy38KRj/znH17jvBiAl8oxcyNp89CsuqE3onxIpn21Ca7riyDDrRw==",
       "type": "package",
@@ -2086,8 +2035,6 @@
         "runtime.json"
       ]
     },
-=======
->>>>>>> Stashed changes
     "Microsoft.OpenApi/1.2.3": {
       "sha512": "Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
       "type": "package",
@@ -2276,7 +2223,6 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
-<<<<<<< Updated upstream
     "System.Buffers/4.5.1": {
       "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
       "type": "package",
@@ -3004,8 +2950,6 @@
         "version.txt"
       ]
     },
-=======
->>>>>>> Stashed changes
     "System.Runtime.CompilerServices.Unsafe/6.0.0": {
       "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
       "type": "package",
@@ -3031,7 +2975,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-<<<<<<< Updated upstream
     "System.Security.AccessControl/5.0.0": {
       "sha512": "dagJ1mHZO3Ani8GH0PHpPEe/oYO+rVdbQjvjJkBRNQkX4t0r1iaeGn8+/ybkSLEan3/slM0t59SVdHzuHf2jmw==",
       "type": "package",
@@ -3575,8 +3518,6 @@
         "version.txt"
       ]
     },
-=======
->>>>>>> Stashed changes
     "Model.Application/1.0.0": {
       "type": "project",
       "path": "../Model.Application/Model.Application.csproj",
