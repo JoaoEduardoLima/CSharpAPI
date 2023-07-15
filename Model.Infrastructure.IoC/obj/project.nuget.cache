@@ -1,14 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "5NpxlmVXRl6BWboUAI5a/SfrOOQirbrt4hsbycq1SMaoXec8VWQhSAIhiXt437HQhgw5VI6SThXT+DsBW6c8KA==",
+  "dgSpecHash": "ByxjgmSE7mEB71JGSWODl1XLznX2kJOmZA50Hi58Ccnp5OHSfanS6n9xsFroiuO5iEDdXsQGrZp2XGUu1gV0RA==",
   "success": true,
   "projectFilePath": "C:\\Users\\joaoe\\ws-vscode\\CSharpApi\\Model.Infrastructure.IoC\\Model.Infrastructure.IoC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\joaoe\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\joaoe\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\joaoe\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\joaoe\\.nuget\\packages\\fluentvalidation\\11.6.0\\fluentvalidation.11.6.0.nupkg.sha512",
     "C:\\Users\\joaoe\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "C:\\Users\\joaoe\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\joaoe\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\joaoe\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.2\\microsoft.data.sqlclient.5.0.2.nupkg.sha512",
     "C:\\Users\\joaoe\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.0.1\\microsoft.data.sqlclient.sni.runtime.5.0.1.nupkg.sha512",
     "C:\\Users\\joaoe\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.9\\microsoft.entityframeworkcore.7.0.9.nupkg.sha512",
